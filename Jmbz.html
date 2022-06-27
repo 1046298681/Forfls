@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>精美壁纸</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="img/logo.ico">
+</head>
+
+<body>
+	<header>
+		<p><img src="img/logo2.jpg" /></p>
+		<nav>
+			<ul>
+				<li><a href="index.html" >网站首页</a></li>
+				<li><a href="Dbgq.html">代表歌曲</a></li>
+				<li><a href="Rwjs.html">人物介绍</a></li>
+				<li><a href="Jmbz.html"  id="aa">精美壁纸</a></li>
+				<li><a href="Fqyl.html">法器一览</a></li>
+				<li><a href="Ychd.html">演出活动</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="banner banner2">
+		<img src="img/banner1.jpg" />
+	</div>
+	<div class="jsbz">
+		<h1>精美壁纸</h1><br />
+		<table>
+			<tr>
+				<td colspan="2" class="td_img1"><img src="img/1.jpg" /></td>
+				<td rowspan="2" class="td_img2"><img src="img/sbg1.jpg" /></td>
+			</tr>
+			<tr>
+				<td><img src="img/2.jpg" /></td>
+				<td><img src="img/3.jpg" /></td>
+			</tr>
+		</table>
+		<table class="table2">
+			<tr>
+				<td colspan="2" class="td_img1"><img src="img/4.jpg" /></td>
+				<td rowspan="2" class="td_img2"><img src="img/sbz2.jpg" /></td>
+			</tr>
+			<tr>
+				<td><img src="img/5.jpg" /></td>
+				<td><img src="img/6.jpg" /></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td colspan="2" class="td_img1"><img src="img/7.jpg" /></td>
+				<td rowspan="2" class="td_img2"><img src="img/sbz3.jpg" /></td>
+			</tr>
+			<tr>
+				<td><img src="img/8.jpg" /></td>
+				<td><img src="img/9.jpg" /></td>
+			</tr>
+		</table>
+		<table class="table2">
+			<tr>
+				<td colspan="2" class="td_img1"><img src="img/10.jpg" /></td>
+				<td rowspan="2" class="td_img2"><img src="img/sbz4.jpg" /></td>
+			</tr>
+			<tr>
+				<td><img src="img/11.jpg" /></td>
+				<td><img src="img/12.jpg" /></td>
+			</tr>
+		</table>
+	</div>
+	<br /><br />
+	<h2 class="hh2">更多壁纸敬请期待</h2>
+	<audio preload autoplay loop id="vd">  
+		<source src="灰羽联盟 - Free Bird.mp3" type="audio/mpeg">
+	  </audio>
+	  <!-- 点击页面即可播放音乐 -->
+	  <script type="text/javascript">
+		window.onload = function(){
+				 setInterval("toggleSound()",100);
+			}
+		function toggleSound() {
+					var music = document.getElementById("vd");//获取ID  
+						
+					if (music.paused) { //判读是否播放  
+						music.paused=false;
+						music.play(); //没有就播放 
+					}    
+			}
+	  </script>
+	<footer>
+		COPYRIGHT ©2004-2022 版权所有 © 福禄寿 未经许可 严禁复制<br />
+		京ICP备12345678号 ALL RIGHTS RESERVED
+	</footer>
+</body>
+
+</html>

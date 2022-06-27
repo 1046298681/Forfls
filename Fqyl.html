@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>法器一览</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="img/logo.ico">
+</head>
+
+<body style="background: url(img/bg2.jpg) no-repeat 95% 90%/10%;">
+	<header>
+		<p><img src="img/logo2.jpg" /></p>
+		<nav>
+			<ul>
+				<li><a href="index.html" >网站首页</a></li>
+				<li><a href="Dbgq.html">代表歌曲</a></li>
+				<li><a href="Rwjs.html">人物介绍</a></li>
+				<li><a href="Jmbz.html">精美壁纸</a></li>
+				<li><a href="Fqyl.html" id="aa">法器一览</a></li>
+				<li><a href="Ychd.html">演出活动</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="banner banner2">
+		<img src="img/banner5.jpg" />
+	</div>
+	<div class="bzzx">
+		<h1>法器一览</h1>
+		<div class="content">
+			<table><tbody><tr>
+				<td><img src="img/法器1.jpg"></td>
+				<td><h2>大果壳铃</h2><br>
+					</td>
+				<td><img src="img/法器2.jpg"></td>
+				<td><h2>小果壳铃</h2><br>
+					</td>
+					<td><img src="img/法器3.jpg"></td>
+				<td><h2>钵</h2><br>
+					</td></tr>
+			<tr>
+				<td><img src="img/法器4.jpg"></td>
+				<td><h2>小木鱼</h2><br>
+					</td>
+				<td><img src="img/法器5.jpg"></td>
+				<td><h2>锣</h2><br>
+					</td>
+				<td><img src="img/法器6.jpg"></td>
+				<td><h2>铜铃</h2><br>
+					</td></tr>
+			<tr>
+				<td><img src="img/法器7.jpg"></td>
+				<td><h2>小串铜铃</h2><br>
+					</td>
+				<td><img src="img/法器8.jpg"></td>
+				<td><h2>雷声筒</h2><br>
+					</td>
+				<td><img src="img/法器9.jpg"></td>
+				<td><h2>海浪鼓</h2><br>
+					</td></tr>
+			<tr>
+				<td><img src="img/法器10.jpg"></td>
+				<td><h2>杨铭宇</h2><br>
+					</td>
+				<td><img src="img/法器11.jpg"></td>
+				<td><h2>余跃</h2><br>
+					</td>
+				<td><img src="img/法器12.jpg"></td>
+				<td><h2>小白猫</h2><br>
+					</td></tr>
+</tbody></table>
+</div></div>
+<br>
+<br>
+</body>
+<audio preload autoplay loop id="vd">  
+	<source src="灰羽联盟 - Free Bird.mp3" type="audio/mpeg">
+  </audio>
+  <!-- 点击页面即可播放音乐 -->
+  <script type="text/javascript">
+	window.onload = function(){
+			 setInterval("toggleSound()",100);
+		}
+	function toggleSound() {
+				var music = document.getElementById("vd");//获取ID  
+					
+				if (music.paused) { //判读是否播放  
+					music.paused=false;
+					music.play(); //没有就播放 
+				}    
+		}
+  </script>
+<footer>
+	COPYRIGHT ©2004-2022 版权所有 © 福禄寿 未经许可 严禁复制<br />
+	京ICP备12345678号 ALL RIGHTS RESERVED
+</footer>
+</html>

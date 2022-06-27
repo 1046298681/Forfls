@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>网站首页</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="img/logo.ico">
+</head>
+
+<body style="background: url(img/comic.jpg)  no-repeat 0% 94.15%;">
+	<header>
+		<p><img src="img/logo2.jpg" /></p>
+		<nav>
+			<ul>
+				<li><a href="index.html" id="aa">网站首页</a></li>
+				<li><a href="Dbgq.html">代表歌曲</a></li>
+				<li><a href="Rwjs.html">人物介绍</a></li>
+				<li><a href="Jmbz.html">精美壁纸</a></li>
+				<li><a href="Fqyl.html">法器一览</a></li>
+				<li><a href="Ychd.html">演出活动</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="banner">
+		<img src="img/banner3.jpg" />
+		<img class="gif" src="img/花瓣.gif" />
+	</div>
+	<div class="dmjs">
+		<h1>乐队介绍</h1>
+		<img src="img/sy1.jpg" class="img1" />
+		福禄寿FloruitShow是一支成立于2018年9月的中国内地独立乐队，乐队由三胞胎姐妹杜冰儿、杜雪儿和杜飞儿组成。
+		三姐妹毕业于中央音乐学院，其中，杜冰儿和杜飞儿毕业于作曲系，杜雪儿毕业于管弦系竖琴专业。
+		在乐队中，豆豆杜冰儿担任键盘手和主唱，捏捏杜雪儿主要负责竖琴和吉他，咪咪杜飞儿主要负责合成器以及打击乐。
+		用“福禄寿”作为乐队的名字，源于她们开的一个玩笑。同时，“福禄寿”作为吉祥如意的象征，又是猎户座上排成直线的三颗星，像极了三姐妹的关系。
+		<img src="img/sy2.jpg" class="img2" /><br />
+		凭借极具辨识度的声线和深挚动人的词曲，福禄寿乐队在新生代原创音乐领域崭露头角。扎实的学院派音乐功底和前沿的现代音乐理念，融贯于心有灵犀的感应之中，她们的音乐有浓郁的东方色彩，
+		平静中却能给人的内心带来力量，凭借极具辨识度的声线和深挚动人的词曲，更经由纯熟的编曲和制作，为作品注入电子乐的精巧灵动和古典音乐和谐深邃的美感。
+
+	</div>
+	<div class="rwjs">
+		<h1>人物介绍</h1>
+		<table>
+			<tr>
+				<td>
+					<a href="Rwjs.html">
+						中文名：杜冰儿<br />
+						昵称：豆豆<br />
+						担当：主唱/键盘<br />
+						属性：发言人<br />
+						<u>人物特点：家庭弟位、颜艺大师、豆伟霆</u>
+					</a>
+					<img src="img/人物1.jpg" />
+				</td>
+				<td>
+					<a href="Rwjs.html">
+						中文名：杜雪儿<br />
+						昵称：捏捏<br />
+						担当：竖琴/吉他<br />
+						属性：负责人<br />
+						<u>人物特点：老领导、用脚说话、金主爸爸</u>
+					</a>
+					<img src="img/人物2.jpg" />
+				</td>
+				<td>
+					<a href="Rwjs.html">
+						中文名：杜飞儿<br />
+						昵称：咪咪<br />
+						担当：打击乐/合成器<br />
+						属性：工具人<br />
+						<u>人物特点：拔燕姿、红宝石、假笑</u>
+					</a>
+					<img src="img/人物3.jpg" />
+				</td>
+			</tr>
+		</table>
+		<a href="Rwjs.html">查看更多</a>
+	</div>
+	<div class="jmbz">
+		<h1>精美壁纸</h1>
+		<table>
+			<tr>
+				<td><img src="img/壁纸1.jpg" /></td>
+				<td><img src="img/壁纸2.jpg" /></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><img src="img/壁纸3.jpg" /></td>
+				<td><img src="img/壁纸4.jpg" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><img src="img/壁纸5.jpg" /></td>
+			</tr>
+		</table>
+		<a href="Jmbz.html">查看更多</a>
+	</div>
+	<audio preload autoplay loop id="vd">  
+		<source src="灰羽联盟 - Free Bird.mp3" type="audio/mpeg">
+	  </audio>
+	  <!-- 点击页面即可播放音乐 -->
+	  <script type="text/javascript">
+		window.onload = function(){
+				 setInterval("toggleSound()",100);
+			}
+		function toggleSound() {
+					var music = document.getElementById("vd");//获取ID  
+						
+					if (music.paused) { //判读是否播放  
+						music.paused=false;
+						music.play(); //没有就播放 
+					}    
+			}
+	  </script>
+	<footer>
+		COPYRIGHT ©2004-2022 版权所有 © 福禄寿 未经许可 严禁复制<br />
+		京ICP备12345678号 ALL RIGHTS RESERVED
+	</footer>
+</body>
+
+</html>
